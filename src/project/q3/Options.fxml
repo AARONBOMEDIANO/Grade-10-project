@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.control.ToggleButton?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Slider layoutX="135.0" layoutY="208.0" prefHeight="14.0" prefWidth="331.0" />
+      <Text layoutX="135.0" layoutY="190.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sounds" wrappingWidth="100.146484375">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Slider layoutX="135.0" layoutY="118.0" prefHeight="14.0" prefWidth="331.0" />
+      <Text layoutX="135.0" layoutY="91.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Music" wrappingWidth="100.146484375">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <ToggleButton layoutX="135.0" layoutY="299.0" mnemonicParsing="false" text="Off/On" />
+      <Text layoutX="135.0" layoutY="282.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Fullscreen" wrappingWidth="100.146484375">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Button layoutX="517.0" layoutY="25.0" minWidth="35.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="35.0" text="X" />
+   </children>
+</AnchorPane>
