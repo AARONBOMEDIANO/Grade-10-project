@@ -24,6 +24,7 @@ public class ProjectQ3 extends Application {
         
         stage.setScene(scene);
         stage.show();
+        Location shitpit = new Location("SHIT pit");
         
     }
 
